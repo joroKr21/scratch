@@ -7,7 +7,7 @@ object AmbiguousImplicits {
   }
 
   object G {
-    def H[T : B, V : B] {
+    def H[T : B, V : B] = {
       implicitly[B[((V, T), T)]]
     }
   }

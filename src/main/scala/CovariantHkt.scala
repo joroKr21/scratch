@@ -29,6 +29,6 @@ object CovariantHkt {
     // if we provide this explicitly, it works even for any mix of variance:
     // implicit val ev = AnyIO.fromMono[IO]
 
-    implicitly[AnyIO[IO]] //(AnyIO.fromMono) even with this hint, type inference still fails
+//    implicitly[AnyIO[IO]] //(AnyIO.fromMono) even with this hint, type inference still fails
   }
 }
