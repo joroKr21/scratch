@@ -2,7 +2,7 @@ object Wants {
 
   implicit val nope = new AnyRef with Wanted
 
-  def main(args: Array[String]) {
+  def main(args: Array[String]): Unit = {
     import Wanted._
     println(nope eq implicitly[Wanted])
     println(Wanted.Default eq implicitly[Wanted])
