@@ -2,7 +2,7 @@ name := "scratch"
 
 version := "0.1"
 
-scalaVersion := "2.13.2"
+scalaVersion := "2.13.3"
 
 compileOrder := CompileOrder.JavaThenScala
 
