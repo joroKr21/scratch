@@ -1,5 +1,3 @@
-import scala.language.higherKinds
-
 object PartialGadt {
   sealed abstract class Foo[F[_], A]
   case class Bar[F[_]](fa: F[Int]) extends Foo[F, Unit]

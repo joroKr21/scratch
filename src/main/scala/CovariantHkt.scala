@@ -1,5 +1,3 @@
-import scala.language.higherKinds
-
 object CovariantHkt {
 //  trait MonoIO[F[_]]
 //  trait BifunctorIO[F[+_, _]]
